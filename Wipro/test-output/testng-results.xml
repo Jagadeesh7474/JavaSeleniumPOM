@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Testcas1 title Assertion Pass]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-03-10T10:50:49 IST" name="Suite" finished-at="2025-03-10T10:51:20 IST" duration-ms="30778">
+    <groups>
+    </groups>
+    <test started-at="2025-03-10T10:50:49 IST" name="Test" finished-at="2025-03-10T10:51:20 IST" duration-ms="30778">
+      <class name="TestCaseDemo.Test1">
+        <test-method is-config="true" signature="open()[pri:0, instance:TestCaseDemo.Test1@2049a9c1]" started-at="2025-03-10T10:50:49 IST" name="open" finished-at="2025-03-10T10:50:56 IST" duration-ms="6618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="title(java.lang.String)[pri:1, instance:TestCaseDemo.Test1@2049a9c1]" started-at="2025-03-10T10:50:56 IST" name="title" data-provider="title" finished-at="2025-03-10T10:50:59 IST" duration-ms="2411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OrangeHRM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Testcas1 title Assertion Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- title -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCaseDemo.Test1@2049a9c1]" started-at="2025-03-10T10:50:59 IST" name="close" finished-at="2025-03-10T10:50:59 IST" duration-ms="524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestCaseDemo.Test1 -->
+      <class name="TestCaseDemo.Test2">
+        <test-method is-config="true" signature="open()[pri:0, instance:TestCaseDemo.Test2@68f4865]" started-at="2025-03-10T10:51:01 IST" name="open" finished-at="2025-03-10T10:51:06 IST" duration-ms="5500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="loginFunctanity(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:TestCaseDemo.Test2@68f4865]" started-at="2025-03-10T10:51:06 IST" name="loginFunctanity" data-provider="dp1" finished-at="2025-03-10T10:51:09 IST" duration-ms="2476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFunctanity -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCaseDemo.Test2@68f4865]" started-at="2025-03-10T10:51:09 IST" name="close" finished-at="2025-03-10T10:51:09 IST" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestCaseDemo.Test2 -->
+      <class name="TestCaseDemo.Test3">
+        <test-method is-config="true" signature="open()[pri:0, instance:TestCaseDemo.Test3@4816278d]" started-at="2025-03-10T10:51:09 IST" name="open" finished-at="2025-03-10T10:51:14 IST" duration-ms="5017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="TestMenu(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:TestCaseDemo.Test3@4816278d]" started-at="2025-03-10T10:51:14 IST" name="TestMenu" data-provider="dp2" finished-at="2025-03-10T10:51:20 IST" duration-ms="5291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMenu -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCaseDemo.Test3@4816278d]" started-at="2025-03-10T10:51:20 IST" name="close" finished-at="2025-03-10T10:51:20 IST" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestCaseDemo.Test3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
